@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Flower Blog</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="d-flex flex-wrap flex-column container-fluid p-0">
+        <header>
+            <h1 class="fw-bold fs-4 m-5 ps-5">
+                The Flower Blog
+            </h1>
+            <nav class="navbar navbar-expand-lg bg-dark ">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex w-100 justify-content-evenly">
+                            <li class="nav-item">
+                                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">Categories</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item d-flex">
+                                <span class="sub"></span><a class="nav-link text-light" href="#">Subscribe</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container w-75 p-0 ">
+            <div class="card text-bg-dark mt-5 rounded-1 d-flex flex-wrap border-0">
+                <img src="Images/intro_flower.png" class="card-img img-fluid" alt="...">
+                <div class="card-img-overlay  w-50">
+                    <h2 class="card-title">Explore the Beauty of Flowers</h2>
+                    <p class="card-text text-break">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod tellus eu
+                        orci imperdiet nec rutrum lacus blandit...</p>
+                    <p class="card-text text-break"><small>Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="boxes mt-5 d-flex flex-row">
+                        <div class="first-box d-flex flex-column p-5">
+                            <section>
+                                <article class="blogPost">
+                                    <header>
+                                        <h2 class="fw-bold">The Fascination with Flowers</h2>
+                                        <p>Posted on June 29th 2009 by <a href="#" class="text-body-secondary">John Doe</a> - <a href="#comments" class="text-body-secondary">5 comments</a></p>
+                                    </header>
+                                    <div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod tellus eu
+                                            orci imperdiet nec rutrum lacus blandit...</p>
+                                        <figure>
+                                            <img src="images/flower.png" class="shadow-lg rounded mb-3 " alt="Flower" />
+                                            <figcaption><i>A beautiful flower in full bloom</i></figcaption>
+                                        </figure><br />
+                                        <p>
+                                            Pellentesque ut sapien arcu, egestas mollis massa. Fusce lectus leo, fringilla at
+                                            aliquet sit amet, volutpat non erat. Aenean molestie nibh vitae turpis venenatis
+                                            vel accumsan nunc tincidunt...</p>
+                                        <p>
+                                            Vivamus vitae nulla dolor. Suspendisse eu lacinia justo. Vestibulum a felis ante,
+                                            non aliquam leo. Aliquam eleifend, est viverra semper luctus, metus purus commodo
+                                            elit, a elementum nisi lectus vel magna...</p>
+                                    </div>
+                                </article>
+                            </section>
+
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item  p-5">
+                                    <h2>Comments</h2>
+                                    <div class="accordion-item p-5">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <a href="#" class="text-body-secondary fw-bold">Jane Smith</a> on June 29th 2009 at 23:35
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="p-0">
+                                                    "Flowers are the poetry of nature..."</p> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item p-5">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <a href="#" class="text-body-secondary fw-bold">David Johnson</a> on June 29th 2009 at 23:40
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="p-0">
+                                                    "Nature's beauty captured in pixels..."</p> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item p-5">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <a href="#" class="text-body-secondary fw-bold">Emily Davis</a> on June 29th 2009 at 23:59
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="p-0">
+                                                    "In every flower, a story unfolds..."</p>                   
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <form action="#" method="post" class="container">
+                                <h3 class="my-4">
+                                    Post a Comment</h3>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label for="name" class="form-label">
+                                            Name</label>
+                                        <input name="name" class="form-control" id="name" type="text" />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">
+                                            Email</label>
+                                        <input name="email" class="form-control" id="email" type="text" />
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-md-12">
+                                        <label for="comment" class="form-label">
+                                            Comment</label>
+                                        <textarea name="comment" class="form-control" id="comment"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-md-12">
+                                        <input type="submit" class="form-control bg-dark text-light" value="Post Comment" />
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <aside class="col-md-4">
+                    <section  class="gradient-gray p-5 rounded-4">
+                        <header  class="d-block">
+                            <h3>Categories</h3>
+                        </header>
+                        <ul>
+                            <li><a href="#" class="text-body-secondary text-decoration-none">Nature</a></li>
+                            <li><a href="#" class="text-body-secondary text-decoration-none">Gardening</a></li>
+                            <li><a href="#" class="text-body-secondary text-decoration-none">Photography</a></li>
+                            <li><a href="#" class="text-body-secondary text-decoration-none">Events</a></li>
+                        </ul>
+                    </section>
+                    <section class="gradient-gray p-5 rounded-4">
+                        <header>
+                            <h3>Archives</h3>
+                        </header>
+                        <ul>
+                            <li><a href="#" class="text-body-secondary text-decoration-none">December 2008</a></li>
+                            <li><a href="#" class="text-body-secondary text-decoration-none">January 2009</a></li>
+                            <li><a href="#" class="text-body-secondary text-decoration-none">February 2009</a></li>
+                            <li><a href="#" class="text-body-secondary text-decoration-none">March 2009</a></li>
+                            <li><a href="#" class="text-body-secondary text-decoration-none">April 2009</a></li>
+                            <li><a href="#" class="text-body-secondary text-decoration-none">May 2009</a></li>
+                            <li><a href="#" class="text-body-secondary text-decoration-none">June 2009</a></li>
+                        </ul>
+                    </section>
+                </aside>
+            </div> 
+        </div>
+    </div>
+    <footer class="container-fluid bg-dark p-5 d-flex justify-content-center">
+        <div class="row w-75 ">
+            <div class="col-12 col-md-4">
+                <section id="about" class="mb-3 mb-md-0">
+                    <header>
+                        <h3 class="text-light">About</h3>
+                    </header>
+                    <p class="text-white-50">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco <a href="#" class="text-white-50">laboris nisi ut aliquip</a> ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                        qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </section>
+            </div>
+            <div class="col-12 col-md-4">
+                <section id="blogroll" class="mb-3 mb-md-0">
+                    <header>
+                        <h3 class="text-light">Blogroll</h3>
+                    </header>
+                    <ul>
+                        <li><a href="#" class="text-white-50">Nature's Wonders</a></li>
+                        <li><a href="#" class="text-white-50">Gardening Tips</a></li>
+                        <li><a href="#" class="text-white-50">Photography Insights</a></li>
+                        <li><a href="#" class="text-white-50">Event Highlights</a></li>
+                        <li><a href="#" class="text-white-50">Floral Artistry</a></li>
+                    </ul>
+                </section>
+            </div>
+            <div class="col-12 col-md-4">
+                <section id="popular">
+                    <header>
+                        <h3 class="text-light">Popular</h3>
+                    </header>
+                    <ul>
+                        <li><a href="#" class="text-white-50">The Magic of Tulips</a></li>
+                        <li><a href="#" class="text-white-50">Capturing Nature's Beauty</a></li>
+                        <li><a href="#" class="text-white-50">In the Garden: A Photo Diary</a></li>
+                        <li><a href="#" class="text-white-50">Exploring Floral Diversity</a></li>
+                        <li><a href="#" class="text-white-50">The Enchanting World of Roses</a></li>
+                        <li><a href="#" class="text-white-50">A Journey Through Spring</a></li>
+                        <li><a href="#" class="text-white-50">Summer Blossoms: A Visual Feast</a></li>
+                        <li><a href="#" class="text-white-50">Discovering Fall's Floral Palette</a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </footer>
+
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
